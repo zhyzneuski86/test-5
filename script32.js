@@ -6,7 +6,7 @@ const myMusic = [
     "formats": [
       "CD",
       "8T",
-      "LP"
+
     ],
     "gold": true
   },

@@ -13,3 +13,4 @@ const myAdverb = "quickly";
 const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
 const myArray = ["peanut butter", 1, "bread"];
+const Array = [["Bulls", 23], ["White Sox", 45]];

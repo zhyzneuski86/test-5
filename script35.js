@@ -41,3 +41,23 @@ const removedFromMyArray = myArray.shift();
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul", 35])
+
+const myList = [
+  ["Chocolate", 15],
+  ["Cake", 29],
+  ["Tea", 2],
+  ["Milk", 3],
+  ["Butter", 1]
+];
+
+function reusableFunction() {
+  console.log("Hi World");
+};
+reusableFunction();
+
+function functionWithArgs(param1, param2) {
+  console.log(param1 + param2);
+};
+functionWithArgs(3, 2);
+
+

@@ -60,4 +60,9 @@ function functionWithArgs(param1, param2) {
 };
 functionWithArgs(3, 2);
 
+function timesFive (num) {
+  return num * 5;
+}
+const answer = timesFive(5)
+
 

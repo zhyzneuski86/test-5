@@ -29,3 +29,20 @@ function myOutfit() {
 }
 
 myOutfit();
+
+let sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
+function addFive() {
+  sum += 5;
+}
+addThree();
+addFive();
+
+let processed = 0;
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+console.log(processed)

@@ -14,3 +14,6 @@ const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + my
 
 const myArray = ["peanut butter", 1, "bread"];
 const Array = [["Bulls", 23], ["White Sox", 45]];
+
+const mySecondArray = [50, 60, 70];
+let myData = mySecondArray [0];

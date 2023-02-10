@@ -17,3 +17,7 @@ const Array = [["Bulls", 23], ["White Sox", 45]];
 
 const mySecondArray = [50, 60, 70];
 let myData = mySecondArray [0];
+
+const myThirdArray = [18, 64, 99];
+myThirdArray[0] = 45;
+

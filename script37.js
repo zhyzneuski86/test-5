@@ -325,3 +325,7 @@ function even_or_odd(number) {
     return "Odd";
   }
 }
+
+function solution(str){
+  return str.split("").reverse().join("");
+}

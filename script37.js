@@ -154,3 +154,19 @@ const myDog = {
   "tails": 1,
   "friends": ["Water", "Dogs"]
 };
+
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+const hatValue = testObj.hat;
+const shirtValue = testObj.shirt;
+
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+const entreeValue = testObj["an entree"];
+const drinkValue = testObj["the drink"];

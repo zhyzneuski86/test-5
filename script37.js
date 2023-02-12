@@ -194,3 +194,28 @@ const myDog = {
   "friends": ["freeCodeCamp Campers"]
 };
 myDog.bark = "bow-wow";
+
+onst myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+delete myDog.tails
+
+function phoneticLookup(val) {
+  let result = "";
+  const lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  result = lookup[val];
+  return result;
+}
+
+phoneticLookup("charlie");

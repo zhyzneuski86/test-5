@@ -316,3 +316,12 @@ function updateRecords(records, id, prop, value) {
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+
+function even_or_odd(number) {
+  if (number%2 == 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}

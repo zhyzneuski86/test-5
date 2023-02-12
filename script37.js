@@ -147,3 +147,10 @@ function cc(card) {
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+const myDog = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Water", "Dogs"]
+};

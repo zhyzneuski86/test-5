@@ -384,3 +384,8 @@ function createArray(number){
 
   return newArray;
 }
+
+function booleanToString(b){
+  b = String(b);
+  return b;
+}

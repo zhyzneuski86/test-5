@@ -329,3 +329,10 @@ function even_or_odd(number) {
 function solution(str){
   return str.split("").reverse().join("");
 }
+
+const myArray = [];
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}

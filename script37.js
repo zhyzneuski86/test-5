@@ -415,3 +415,6 @@ const quarterOf = (month) => {
   return Math.ceil(month / 3)
 };
 
+function isIsogram(str){
+  return !/(\w).*\1/i.test(str)
+}

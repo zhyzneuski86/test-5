@@ -405,3 +405,8 @@ function _if(bool, func1, func2) {
   } else func2();
 
 }
+
+
+function reverseWords(str) {
+  return str.split(" ").reverse().join(" ");
+}

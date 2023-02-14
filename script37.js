@@ -472,3 +472,6 @@ function solve(stones) {
   return count
 }
 
+function getCount(str) {
+  return (str.match(/[aeiou]/ig)||[]).length;
+}

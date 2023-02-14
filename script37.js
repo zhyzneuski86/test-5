@@ -389,3 +389,13 @@ function booleanToString(b){
   b = String(b);
   return b;
 }
+
+function simpleMultiplication(number) {
+  let resalt
+  if (number % 2 == 0) {
+    resalt = number * 8;
+  } else  {
+    resalt = number * 9;
+  }
+  return resalt;
+}

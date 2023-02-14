@@ -410,3 +410,8 @@ function _if(bool, func1, func2) {
 function reverseWords(str) {
   return str.split(" ").reverse().join(" ");
 }
+
+const quarterOf = (month) => {
+  return Math.ceil(month / 3)
+};
+
